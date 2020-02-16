@@ -8,11 +8,11 @@ const REGISTRAR_MAIN_NET = "0x314159265dd8dbb310642f98f50c066173c1259b"
 const REGISTRAR_ROPSTEN = "0x112234455c3a32fd11230c42e7bccd4a84e02010"
 
 const resolution = new Resolution({blockchain: {
-  ens: {url: 'https://mainnet.infura.io/v3/YOUR-PROJECT-ID'},
-  cns: {url: 'https://mainnet.infura.io/v3/YOUR-PROJECT-ID'}
+  ens: {url: 'https://mainnet.infura.io/v3/91da3a52af254c758fa6fe292fa7f9fd'},
+  cns: {url: 'https://mainnet.infura.io/v3/91da3a52af254c758fa6fe292fa7f9fd'}
 }})
 
-var web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/0pzfHdAhsqakqtBk8Hs6"))
+var web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/v3/91da3a52af254c758fa6fe292fa7f9fd"))
 
 var abi = {
   registrar: JSON.parse(require('../contracts/registrar.js')),
