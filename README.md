@@ -1,4 +1,4 @@
-# ENS Content Resolver
+# Unstoppable Domains & ENS Content Resolver
 
 Chrome extension that resolves ENS domains (.eth) to IPFS hashes and redirects your browser to content.
 
